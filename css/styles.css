@@ -56,6 +56,7 @@ h1 + p {
     margin-bottom: 2rem;
 }
 
+/* Header */
 .container-header {
     border-bottom: 1px solid var(--borde-color);
     background: var(--background-ligth);
@@ -168,6 +169,7 @@ main > section:nth-child(1) {
     }
 }
 
+/* Card  */
 main > section:nth-child(2) {
     padding-inline: 1rem;
     background-color: var(--background-section);
@@ -224,6 +226,8 @@ main > section:nth-child(2) footer {
     }
 }
 
+/* Sobre Nosotros */
+
 main > section:nth-child(3) {
     padding-inline: 1rem;
     background-color: var(--background-ligth);
@@ -256,6 +260,8 @@ main > section:nth-child(3) footer{
     text-wrap: balance;
     font-size: 1.2rem;
 }
+
+/* Testimonios */
 
 main > section:nth-child(4) {
     padding-inline: 1rem;
@@ -304,6 +310,7 @@ main > section:nth-child(4) {
     justify-content: space-between;
 }
 
+/* Contacto */
 .section-contact {
    max-width: 1200px;
    margin: 0 auto;
@@ -402,6 +409,7 @@ main > section:nth-child(4) {
     resize: vertical;
 }
 
+/* Boton form */
 .btn-form {
     width: 100%;
     padding: 14px 24px;
@@ -445,6 +453,8 @@ main > section:nth-child(4) {
     padding: 5rem 0;
 }
 
+/* Redes Sociales */
+
 .socials {
     display: flex;
     gap: 18px;
@@ -471,4 +481,23 @@ main > section:nth-child(4) {
     background: var(--primary-hover);
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.politicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-ligth);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.copyrigth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-ligth);
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 30px;
 }
